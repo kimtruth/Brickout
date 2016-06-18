@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CBall">
+    <Position X="4.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABCEAAAAEIAClAAAAAAAAiMAAAAAAAAAAAAAAQgAAAA=</HashCode>
+      <FileName>CBall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBlock">
+    <Position X="7" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIAABAAAAAAAAAgAAAAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>CBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFailScene">
+    <Position X="10.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAEAAAAAAAEAAAIAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>CFailScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameData">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIQgIgFAAAAIAMAAAAIAJBAACYAAAAAAIgCAAVA4AA=</HashCode>
+      <FileName>CGameData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameScene">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAgAAAAQAwAAAAECAAIAAAAAAAABAAAUBgAIA=</HashCode>
+      <FileName>CGameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInitScene">
+    <Position X="5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAEEAAIAAAAAAAABgAAABAAAA=</HashCode>
+      <FileName>CInitScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer">
+    <Position X="9.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CReadyScene">
+    <Position X="13.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAEAAAIDAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>CReadyScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CResultScene">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAEAAAIIEAAAAAABAAAABAAAA=</HashCode>
+      <FileName>CResultScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWinScene">
+    <Position X="7.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAACAAAAAAAEAAAIAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>CWinScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IObject">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAABBgIABABAA=</HashCode>
+      <FileName>IObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IScene">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAACAAAAAAAAEAAAIAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>IScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_STAGE_INFO">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CGameData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="_DIRECT">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAQKAAAAAAEAAAQAAAA=</HashCode>
+      <FileName>CBall.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_SOUND">
+    <Position X="18" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAAAAAAAAAAAAAAAAEAACAAAAAgAAIQAAAACA=</HashCode>
+      <FileName>SoundFunc.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\IScene">
+      <UniqueIdentifier>{94196b52-bffb-4513-9e6e-6ca674ca831f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CGameScene">
+      <UniqueIdentifier>{334f2357-e1cd-4b3d-b2f6-d9bda5dab206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CInitScene">
+      <UniqueIdentifier>{06152911-506d-40f5-b87f-d02a35e92fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ScreenFunc">
+      <UniqueIdentifier>{df0b79b2-58f7-4063-a9c2-311eba3a599c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SoundFunc">
+      <UniqueIdentifier>{794f4afb-02c0-47a6-afc3-0c5b2bc22ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CReadyScene">
+      <UniqueIdentifier>{270b8c89-8605-4d6b-873d-d07301770e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CGameData">
+      <UniqueIdentifier>{da3c1a90-6f3e-4ed1-89ff-0d6f33746ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CBall">
+      <UniqueIdentifier>{d27b85b0-92df-4024-95de-1138cfdc009b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\IObject">
+      <UniqueIdentifier>{e7799a97-2b5d-46c6-97d8-3dfc87af9a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CPlayer">
+      <UniqueIdentifier>{bb3eb2a1-c31d-4855-902c-af0c8b975176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CBlock">
+      <UniqueIdentifier>{028f4348-2a1c-462e-a001-4b13cdd699e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CFailScene">
+      <UniqueIdentifier>{f399feb3-ddb5-4dca-a59a-fb6d817ab73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CWinScene">
+      <UniqueIdentifier>{7db22c9d-d0df-48ef-965e-565c9e7906a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CResultScene">
+      <UniqueIdentifier>{2d9667b8-ee4b-460d-9c33-3f8f93512200}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenFunc.cpp">
+      <Filter>소스 파일\ScreenFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="CInitScene.cpp">
+      <Filter>소스 파일\CInitScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene.cpp">
+      <Filter>소스 파일\CGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFunc.cpp">
+      <Filter>소스 파일\SoundFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="IObject.cpp">
+      <Filter>소스 파일\IObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CReadyScene.cpp">
+      <Filter>소스 파일\CReadyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameData.cpp">
+      <Filter>소스 파일\CGameData</Filter>
+    </ClCompile>
+    <ClCompile Include="CBall.cpp">
+      <Filter>소스 파일\CBall</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock.cpp">
+      <Filter>소스 파일\CBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="CFailScene.cpp">
+      <Filter>소스 파일\CFailScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CwinScene.cpp">
+      <Filter>소스 파일\CWinScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CResultScene.cpp">
+      <Filter>소스 파일\CResultScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="balll_bar_wall_collision.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="block_collision.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="fail.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="fire.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="run.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="stage.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="success.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="title.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IScene.h">
+      <Filter>소스 파일\IScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene.h">
+      <Filter>소스 파일\CGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CInitScene.h">
+      <Filter>소스 파일\CInitScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenFunc.h">
+      <Filter>소스 파일\ScreenFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFunc.h">
+      <Filter>소스 파일\SoundFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>소스 파일\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>소스 파일\IObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CReadyScene.h">
+      <Filter>소스 파일\CReadyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameData.h">
+      <Filter>소스 파일\CGameData</Filter>
+    </ClInclude>
+    <ClInclude Include="CBall.h">
+      <Filter>소스 파일\CBall</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock.h">
+      <Filter>소스 파일\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CFailScene.h">
+      <Filter>소스 파일\CFailScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinScene.h">
+      <Filter>소스 파일\CWinScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CResultScene.h">
+      <Filter>소스 파일\CResultScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
